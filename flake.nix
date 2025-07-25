@@ -28,6 +28,7 @@
         p.scikit-image
         p.torch
         p.torchvision
+        p.torchsummary
       ]);
     in {
       default = pkgs.mkShell {
