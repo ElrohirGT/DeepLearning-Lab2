@@ -26,6 +26,8 @@
         p.numpy
         p.scipy
         p.scikit-image
+        p.torch
+        p.torchvision
       ]);
     in {
       default = pkgs.mkShell {
